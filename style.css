@@ -1,0 +1,73 @@
+:root {
+    --main-color: #2B9DF4;
+    --font-primary: 'Orbitron', sans-serif;
+    --font-other: 'Jura', sans-serif;
+}
+body {
+    background-color: black;
+}
+.bg-navbar{
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.top-bg{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 20%,rgba(0, 0, 0, 0.5) 40% , rgba(0, 0, 0, 1) 100%), url('./media/moon.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    
+}
+.main-bg{
+    background: url('./media/moon2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.missile-bg{
+    background: url('./media/missile-2027068_1280.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+.footer-bg{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.3) 40% , rgba(0, 0, 0, 1) 90%), url('./media/sunrise-1765027_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    
+}
+.font-01{
+    font-family: var(--font-primary);
+}
+.font-02{
+    font-family: var(--font-other);
+}
+.text-main-color{
+    color: var(--main-color) ;
+}
+.bd-main-color{
+    border-bottom: 2px solid var(--main-color);
+}
+.mt-20{
+    margin-top: 200px;
+}
+.mt-30{
+    margin-top: 300px;
+}
+.mb-10{
+    margin-bottom: 100px;
+}
+.goto-btn{
+    background-color: unset;
+    height: 50px;
+    width: 30%;
+    border-style: solid;
+    border-image: url(./media/Livello.png) 15;
+}
+.bottom-lgdnt{
+    height: 5px;
+    width: 50%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(43,157,244,1) 50%, rgba(0,0,0,1) 100%); 
+}
